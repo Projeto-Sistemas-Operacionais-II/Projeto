@@ -34,6 +34,7 @@ Para desistalar, usa-se o comando:
     $ make uninstall
 
 Para adicionar um novo pendrive:
+
     $ make addpendrive
 
 
