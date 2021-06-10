@@ -9,7 +9,7 @@ Alunos:
         <li>Vanessa Cristine Hofstatter Held  - 0040482011004</li>
 <hr>
 
-Esse projeto foi desenvolvido com o intuito de criar uma ferramenta para autenticação em 2 fatores via módulo PAM_USB.
+Esse projeto foi desenvolvido com o intuito de criar uma ferramenta para autenticação em 2 fatores via módulo PAM.
 <br>
 
 <br> ------- Instalação-------<br>
@@ -21,20 +21,20 @@ Após download para realizar a instalação usa-se os seguintes comandos:<br>
     $ make
     $ make install
 
-Após os comandos o modulo foi instalado.<br>
+Após os comandos, o modulo é instalado.<br>
 
-Na instalação foram criado uma pasta e dois arquivos:
-    <br><li> /etc/pam.d/pam.usb</li> 
-    <br>login: localiza-se o arquivo login que registar as datas e horas dos logins efetuados.<br>
-    <br>usb serial: localiza-se os arquivos com o os seriais dos pendrives, juntamento com a data e hora dos .
-        
+Na instalação, cria-se um diretorio chamado pam.usb no caminho /etc/pam.d/. Dentro do pam.usb são criados dois outros arquivos: 
+    <br>* login: que registra as datas e horas dos logins efetuados.<br>
+    <br>* usb.serial: onde se encontra o serial de cada dispositivo registrado.
+            
+Caso queira adicionar um novo dispositivo:
+
+    $ make newdevice
 
 Para desistalar, usa-se o comando:
 
     $ make uninstall
 
-Para adicionar um novo pendrive:
 
-    $ make addpendrive
 
 
