@@ -24,8 +24,9 @@ Após download para realizar a instalação usa-se os seguintes comandos:<br>
 Após os comandos, o modulo é instalado.<br>
 
 Na instalação, cria-se um diretorio chamado pam.usb no caminho /etc/pam.d/. Dentro do pam.usb são criados dois outros arquivos: 
-    <br>* login: que registra as datas e horas dos logins efetuados.<br>
-    <br>* usb.serial: onde se encontra o serial de cada dispositivo registrado.
+    
+     * login: que registra as datas e horas dos logins efetuados.<br>
+     * usb.serial: onde se encontra o serial de cada dispositivo registrado.<br>
             
 Caso queira adicionar um novo dispositivo:
 
