@@ -25,8 +25,8 @@ Após os comandos o modulo foi instalado.<br>
 
 Na instalação foram criado uma pasta e dois arquivos:
     <br><li> /etc/pam.d/pam.usb</li> 
-    <br>login<br>: localiza-se o arquivo login que registar as datas e horas dos logins efetuados.<br>
-    <br>usb serial<br>: localiza-se os arquivos com o os seriais dos pendrives, juntamento com a data e hora dos .
+    <br>login: localiza-se o arquivo login que registar as datas e horas dos logins efetuados.<br>
+    <br>usb serial: localiza-se os arquivos com o os seriais dos pendrives, juntamento com a data e hora dos .
         
 
 Para desistalar, usa-se o comando:
